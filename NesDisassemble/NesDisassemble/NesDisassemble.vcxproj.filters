@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{9766afd8-49b2-438b-8308-6f3ee4beca4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6502">
+      <UniqueIdentifier>{e1ae7ae3-df37-481d-a2bc-7561fe996ba3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CStrUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\6502\C6502Introduction.cpp">
+      <Filter>6502</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CFileHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CBytesUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CClipboardUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CLogUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CPathUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CRegUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CStrUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\6502\C6502Introduction.h">
+      <Filter>6502</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CFileHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CBytesUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CClipboardUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CLogUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CPathUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CRegUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NesDisassemble.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
